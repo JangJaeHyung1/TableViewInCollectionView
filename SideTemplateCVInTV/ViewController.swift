@@ -62,7 +62,8 @@ extension ViewController {
         tableView.showsHorizontalScrollIndicator = false
         tableView.showsVerticalScrollIndicator = false
         tableView.register(TableViewCell.self, forCellReuseIdentifier: TableViewCell.cellId)
-        tableView.backgroundColor = .red
+        tableView.backgroundColor = .white
+        tableView.separatorStyle = .none
         tableView.translatesAutoresizingMaskIntoConstraints = false
     }
     

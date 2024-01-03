@@ -17,7 +17,7 @@ class CollectionViewCell: UICollectionViewCell {
     private let cellView: UIView = {
         let view = UIView()
         view.translatesAutoresizingMaskIntoConstraints = false
-        view.backgroundColor = .cyan
+        view.backgroundColor = .systemGray6
         view.layer.cornerRadius = 10
         return view
     }()
@@ -30,7 +30,7 @@ class CollectionViewCell: UICollectionViewCell {
         lbl.font = .systemFont(ofSize: 17)
         lbl.lineBreakMode = .byWordWrapping
         lbl.isUserInteractionEnabled = true
-        lbl.backgroundColor = .gray
+        lbl.backgroundColor = .cyan
         return lbl
     }()
     

@@ -67,7 +67,7 @@ class TableViewCell: UITableViewCell {
         collectionView.isScrollEnabled = false
         collectionView.delegate = self
         collectionView.register(CollectionViewCell.self, forCellWithReuseIdentifier: CollectionViewCell.cellId)
-        collectionView.backgroundColor = .blue
+        collectionView.backgroundColor = .white
         collectionView.translatesAutoresizingMaskIntoConstraints = false
         collectionView.contentInset = UIEdgeInsets(top: 10, left: 10, bottom: 0, right: 10)
     }
