@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E900DAF32B43CA7800402D07 /* CHTCollectionViewWaterfallLayout in Frameworks */ = {isa = PBXBuildFile; productRef = E900DAF22B43CA7800402D07 /* CHTCollectionViewWaterfallLayout */; };
+		E900DAF62B44F91D00402D07 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = E900DAF52B44F91D00402D07 /* RxCocoa */; };
+		E900DAF82B44F91D00402D07 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = E900DAF72B44F91D00402D07 /* RxRelay */; };
+		E900DAFA2B44F91D00402D07 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E900DAF92B44F91D00402D07 /* RxSwift */; };
 		E9FBFA262B3E5C4B002667CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FBFA252B3E5C4B002667CB /* AppDelegate.swift */; };
 		E9FBFA282B3E5C4B002667CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FBFA272B3E5C4B002667CB /* SceneDelegate.swift */; };
 		E9FBFA2A2B3E5C4B002667CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FBFA292B3E5C4B002667CB /* ViewController.swift */; };
 		E9FBFA2D2B3E5C4B002667CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9FBFA2B2B3E5C4B002667CB /* Main.storyboard */; };
 		E9FBFA2F2B3E5C4D002667CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9FBFA2E2B3E5C4D002667CB /* Assets.xcassets */; };
 		E9FBFA322B3E5C4D002667CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9FBFA302B3E5C4D002667CB /* LaunchScreen.storyboard */; };
+		E9FBFA3B2B3E5D41002667CB /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = E9FBFA3A2B3E5D41002667CB /* SnapKit */; };
+		E9FBFA3D2B3E5EEB002667CB /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FBFA3C2B3E5EEB002667CB /* TableViewCell.swift */; };
+		E9FBFA3F2B3E61C9002667CB /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FBFA3E2B3E61C9002667CB /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,8 @@
 		E9FBFA2E2B3E5C4D002667CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9FBFA312B3E5C4D002667CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9FBFA332B3E5C4D002667CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9FBFA3C2B3E5EEB002667CB /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		E9FBFA3E2B3E61C9002667CB /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +40,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E900DAF62B44F91D00402D07 /* RxCocoa in Frameworks */,
+				E900DAF32B43CA7800402D07 /* CHTCollectionViewWaterfallLayout in Frameworks */,
+				E900DAFA2B44F91D00402D07 /* RxSwift in Frameworks */,
+				E900DAF82B44F91D00402D07 /* RxRelay in Frameworks */,
+				E9FBFA3B2B3E5D41002667CB /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +73,8 @@
 				E9FBFA252B3E5C4B002667CB /* AppDelegate.swift */,
 				E9FBFA272B3E5C4B002667CB /* SceneDelegate.swift */,
 				E9FBFA292B3E5C4B002667CB /* ViewController.swift */,
+				E9FBFA3C2B3E5EEB002667CB /* TableViewCell.swift */,
+				E9FBFA3E2B3E61C9002667CB /* CollectionViewCell.swift */,
 				E9FBFA2B2B3E5C4B002667CB /* Main.storyboard */,
 				E9FBFA2E2B3E5C4D002667CB /* Assets.xcassets */,
 				E9FBFA302B3E5C4D002667CB /* LaunchScreen.storyboard */,
@@ -83,6 +99,13 @@
 			dependencies = (
 			);
 			name = SideTemplateCVInTV;
+			packageProductDependencies = (
+				E9FBFA3A2B3E5D41002667CB /* SnapKit */,
+				E900DAF22B43CA7800402D07 /* CHTCollectionViewWaterfallLayout */,
+				E900DAF52B44F91D00402D07 /* RxCocoa */,
+				E900DAF72B44F91D00402D07 /* RxRelay */,
+				E900DAF92B44F91D00402D07 /* RxSwift */,
+			);
 			productName = SideTemplateCVInTV;
 			productReference = E9FBFA222B3E5C4B002667CB /* SideTemplateCVInTV.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +134,11 @@
 				Base,
 			);
 			mainGroup = E9FBFA192B3E5C4B002667CB;
+			packageReferences = (
+				E9FBFA392B3E5D41002667CB /* XCRemoteSwiftPackageReference "SnapKit" */,
+				E900DAF12B43CA7800402D07 /* XCRemoteSwiftPackageReference "CHTCollectionViewWaterfallLayout" */,
+				E900DAF42B44F91D00402D07 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = E9FBFA232B3E5C4B002667CB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,7 +166,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9FBFA3F2B3E61C9002667CB /* CollectionViewCell.swift in Sources */,
 				E9FBFA2A2B3E5C4B002667CB /* ViewController.swift in Sources */,
+				E9FBFA3D2B3E5EEB002667CB /* TableViewCell.swift in Sources */,
 				E9FBFA262B3E5C4B002667CB /* AppDelegate.swift in Sources */,
 				E9FBFA282B3E5C4B002667CB /* SceneDelegate.swift in Sources */,
 			);
@@ -358,6 +388,61 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E900DAF12B43CA7800402D07 /* XCRemoteSwiftPackageReference "CHTCollectionViewWaterfallLayout" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/chiahsien/CHTCollectionViewWaterfallLayout.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.10;
+			};
+		};
+		E900DAF42B44F91D00402D07 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		E9FBFA392B3E5D41002667CB /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E900DAF22B43CA7800402D07 /* CHTCollectionViewWaterfallLayout */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E900DAF12B43CA7800402D07 /* XCRemoteSwiftPackageReference "CHTCollectionViewWaterfallLayout" */;
+			productName = CHTCollectionViewWaterfallLayout;
+		};
+		E900DAF52B44F91D00402D07 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E900DAF42B44F91D00402D07 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		E900DAF72B44F91D00402D07 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E900DAF42B44F91D00402D07 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		E900DAF92B44F91D00402D07 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E900DAF42B44F91D00402D07 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		E9FBFA3A2B3E5D41002667CB /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E9FBFA392B3E5D41002667CB /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E9FBFA1A2B3E5C4B002667CB /* Project object */;
 }
